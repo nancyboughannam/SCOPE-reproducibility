@@ -1,0 +1,482 @@
+[
+  {
+    "job": "steady_900_dt15_i3601",
+    "workload_sha256": "6ae728454cbc17d302452089914d22eb1317d60b805d067992a2ba00d16b3a97"
+  },
+  {
+    "job": "steady_900_dt30_i3601",
+    "workload_sha256": "6ae728454cbc17d302452089914d22eb1317d60b805d067992a2ba00d16b3a97"
+  },
+  {
+    "job": "steady_900_dt60_i3601",
+    "workload_sha256": "6ae728454cbc17d302452089914d22eb1317d60b805d067992a2ba00d16b3a97"
+  },
+  {
+    "job": "steady_900_dt90_i3601",
+    "workload_sha256": "6ae728454cbc17d302452089914d22eb1317d60b805d067992a2ba00d16b3a97"
+  },
+  {
+    "job": "steady_1800_dt15_i3601",
+    "workload_sha256": "fedb4af17dadec5c3bb250637be168a9f3033360fb004ca4154133c5880d969d"
+  },
+  {
+    "job": "steady_1800_dt30_i3601",
+    "workload_sha256": "fedb4af17dadec5c3bb250637be168a9f3033360fb004ca4154133c5880d969d"
+  },
+  {
+    "job": "steady_1800_dt60_i3601",
+    "workload_sha256": "fedb4af17dadec5c3bb250637be168a9f3033360fb004ca4154133c5880d969d"
+  },
+  {
+    "job": "steady_1800_dt90_i3601",
+    "workload_sha256": "fedb4af17dadec5c3bb250637be168a9f3033360fb004ca4154133c5880d969d"
+  },
+  {
+    "job": "shift_1200_dt15_i3601",
+    "workload_sha256": "05eff6e48e9a1d114c229787a2e1e5450baeee4a28ecdf3742d2482287fe241e"
+  },
+  {
+    "job": "shift_1200_dt30_i3601",
+    "workload_sha256": "05eff6e48e9a1d114c229787a2e1e5450baeee4a28ecdf3742d2482287fe241e"
+  },
+  {
+    "job": "shift_1200_dt60_i3601",
+    "workload_sha256": "05eff6e48e9a1d114c229787a2e1e5450baeee4a28ecdf3742d2482287fe241e"
+  },
+  {
+    "job": "shift_1200_dt90_i3601",
+    "workload_sha256": "05eff6e48e9a1d114c229787a2e1e5450baeee4a28ecdf3742d2482287fe241e"
+  },
+  {
+    "job": "steady_900_dt15_i3602",
+    "workload_sha256": "12c8363268ebefc57cd9460aad87431488e3eafe6284ccc889eda658ee2d9e3e"
+  },
+  {
+    "job": "steady_900_dt30_i3602",
+    "workload_sha256": "12c8363268ebefc57cd9460aad87431488e3eafe6284ccc889eda658ee2d9e3e"
+  },
+  {
+    "job": "steady_900_dt60_i3602",
+    "workload_sha256": "12c8363268ebefc57cd9460aad87431488e3eafe6284ccc889eda658ee2d9e3e"
+  },
+  {
+    "job": "steady_900_dt90_i3602",
+    "workload_sha256": "12c8363268ebefc57cd9460aad87431488e3eafe6284ccc889eda658ee2d9e3e"
+  },
+  {
+    "job": "steady_1800_dt15_i3602",
+    "workload_sha256": "c94969c2c14ea1065a56aa9fc82707e46ebb52af6075d5b106fc77429dd235c7"
+  },
+  {
+    "job": "steady_1800_dt30_i3602",
+    "workload_sha256": "c94969c2c14ea1065a56aa9fc82707e46ebb52af6075d5b106fc77429dd235c7"
+  },
+  {
+    "job": "steady_1800_dt60_i3602",
+    "workload_sha256": "c94969c2c14ea1065a56aa9fc82707e46ebb52af6075d5b106fc77429dd235c7"
+  },
+  {
+    "job": "steady_1800_dt90_i3602",
+    "workload_sha256": "c94969c2c14ea1065a56aa9fc82707e46ebb52af6075d5b106fc77429dd235c7"
+  },
+  {
+    "job": "shift_1200_dt15_i3602",
+    "workload_sha256": "62a1c20ad22ae6ba912e1a7a73a798efc10669d14def130c4e22839eb202825f"
+  },
+  {
+    "job": "shift_1200_dt30_i3602",
+    "workload_sha256": "62a1c20ad22ae6ba912e1a7a73a798efc10669d14def130c4e22839eb202825f"
+  },
+  {
+    "job": "shift_1200_dt60_i3602",
+    "workload_sha256": "62a1c20ad22ae6ba912e1a7a73a798efc10669d14def130c4e22839eb202825f"
+  },
+  {
+    "job": "shift_1200_dt90_i3602",
+    "workload_sha256": "62a1c20ad22ae6ba912e1a7a73a798efc10669d14def130c4e22839eb202825f"
+  },
+  {
+    "job": "steady_900_dt15_i3603",
+    "workload_sha256": "cc9b001ec24d72eadad9200cb082d93a4a82de4c451fde201ba8402d4317c19e"
+  },
+  {
+    "job": "steady_900_dt30_i3603",
+    "workload_sha256": "cc9b001ec24d72eadad9200cb082d93a4a82de4c451fde201ba8402d4317c19e"
+  },
+  {
+    "job": "steady_900_dt60_i3603",
+    "workload_sha256": "cc9b001ec24d72eadad9200cb082d93a4a82de4c451fde201ba8402d4317c19e"
+  },
+  {
+    "job": "steady_900_dt90_i3603",
+    "workload_sha256": "cc9b001ec24d72eadad9200cb082d93a4a82de4c451fde201ba8402d4317c19e"
+  },
+  {
+    "job": "steady_1800_dt15_i3603",
+    "workload_sha256": "e78e7d785ba7bdc88e3a6874a0ea1112fc65ad58dcbf982a391d04d7ab018f00"
+  },
+  {
+    "job": "steady_1800_dt30_i3603",
+    "workload_sha256": "e78e7d785ba7bdc88e3a6874a0ea1112fc65ad58dcbf982a391d04d7ab018f00"
+  },
+  {
+    "job": "steady_1800_dt60_i3603",
+    "workload_sha256": "e78e7d785ba7bdc88e3a6874a0ea1112fc65ad58dcbf982a391d04d7ab018f00"
+  },
+  {
+    "job": "steady_1800_dt90_i3603",
+    "workload_sha256": "e78e7d785ba7bdc88e3a6874a0ea1112fc65ad58dcbf982a391d04d7ab018f00"
+  },
+  {
+    "job": "shift_1200_dt15_i3603",
+    "workload_sha256": "0e804edd8d52a5536fcf62fdbdf1c7ad8279360e0679cab5e0b9344af13dfeb9"
+  },
+  {
+    "job": "shift_1200_dt30_i3603",
+    "workload_sha256": "0e804edd8d52a5536fcf62fdbdf1c7ad8279360e0679cab5e0b9344af13dfeb9"
+  },
+  {
+    "job": "shift_1200_dt60_i3603",
+    "workload_sha256": "0e804edd8d52a5536fcf62fdbdf1c7ad8279360e0679cab5e0b9344af13dfeb9"
+  },
+  {
+    "job": "shift_1200_dt90_i3603",
+    "workload_sha256": "0e804edd8d52a5536fcf62fdbdf1c7ad8279360e0679cab5e0b9344af13dfeb9"
+  },
+  {
+    "job": "steady_900_dt15_i3604",
+    "workload_sha256": "1dc344b5354fc96ba4fb47e6db2350f18363d7ac119261f749c183d3f1ef5355"
+  },
+  {
+    "job": "steady_900_dt30_i3604",
+    "workload_sha256": "1dc344b5354fc96ba4fb47e6db2350f18363d7ac119261f749c183d3f1ef5355"
+  },
+  {
+    "job": "steady_900_dt60_i3604",
+    "workload_sha256": "1dc344b5354fc96ba4fb47e6db2350f18363d7ac119261f749c183d3f1ef5355"
+  },
+  {
+    "job": "steady_900_dt90_i3604",
+    "workload_sha256": "1dc344b5354fc96ba4fb47e6db2350f18363d7ac119261f749c183d3f1ef5355"
+  },
+  {
+    "job": "steady_1800_dt15_i3604",
+    "workload_sha256": "e099f581b5abe261641ab814f812dafb2fb97fbf0643ed87fdf7c727923f61d9"
+  },
+  {
+    "job": "steady_1800_dt30_i3604",
+    "workload_sha256": "e099f581b5abe261641ab814f812dafb2fb97fbf0643ed87fdf7c727923f61d9"
+  },
+  {
+    "job": "steady_1800_dt60_i3604",
+    "workload_sha256": "e099f581b5abe261641ab814f812dafb2fb97fbf0643ed87fdf7c727923f61d9"
+  },
+  {
+    "job": "steady_1800_dt90_i3604",
+    "workload_sha256": "e099f581b5abe261641ab814f812dafb2fb97fbf0643ed87fdf7c727923f61d9"
+  },
+  {
+    "job": "shift_1200_dt15_i3604",
+    "workload_sha256": "aaad2ac911858329c13c906f5d02dcf3f0890db7fde9dcf0b8e52b8c33cab97b"
+  },
+  {
+    "job": "shift_1200_dt30_i3604",
+    "workload_sha256": "aaad2ac911858329c13c906f5d02dcf3f0890db7fde9dcf0b8e52b8c33cab97b"
+  },
+  {
+    "job": "shift_1200_dt60_i3604",
+    "workload_sha256": "aaad2ac911858329c13c906f5d02dcf3f0890db7fde9dcf0b8e52b8c33cab97b"
+  },
+  {
+    "job": "shift_1200_dt90_i3604",
+    "workload_sha256": "aaad2ac911858329c13c906f5d02dcf3f0890db7fde9dcf0b8e52b8c33cab97b"
+  },
+  {
+    "job": "steady_900_dt15_i3605",
+    "workload_sha256": "0c93694f1e8858600b4869b863fba97b11e48bab6acb705d4aa8a7e2940e5835"
+  },
+  {
+    "job": "steady_900_dt30_i3605",
+    "workload_sha256": "0c93694f1e8858600b4869b863fba97b11e48bab6acb705d4aa8a7e2940e5835"
+  },
+  {
+    "job": "steady_900_dt60_i3605",
+    "workload_sha256": "0c93694f1e8858600b4869b863fba97b11e48bab6acb705d4aa8a7e2940e5835"
+  },
+  {
+    "job": "steady_900_dt90_i3605",
+    "workload_sha256": "0c93694f1e8858600b4869b863fba97b11e48bab6acb705d4aa8a7e2940e5835"
+  },
+  {
+    "job": "steady_1800_dt15_i3605",
+    "workload_sha256": "33e1b0db018473c93f4e546b724fe65c2f77a5755c6b89a096cce5ea70da8eae"
+  },
+  {
+    "job": "steady_1800_dt30_i3605",
+    "workload_sha256": "33e1b0db018473c93f4e546b724fe65c2f77a5755c6b89a096cce5ea70da8eae"
+  },
+  {
+    "job": "steady_1800_dt60_i3605",
+    "workload_sha256": "33e1b0db018473c93f4e546b724fe65c2f77a5755c6b89a096cce5ea70da8eae"
+  },
+  {
+    "job": "steady_1800_dt90_i3605",
+    "workload_sha256": "33e1b0db018473c93f4e546b724fe65c2f77a5755c6b89a096cce5ea70da8eae"
+  },
+  {
+    "job": "shift_1200_dt15_i3605",
+    "workload_sha256": "e67ab0e5c59fb264cea1bbbb39c7d0c958dded978d36d872c3c7846df63eb51a"
+  },
+  {
+    "job": "shift_1200_dt30_i3605",
+    "workload_sha256": "e67ab0e5c59fb264cea1bbbb39c7d0c958dded978d36d872c3c7846df63eb51a"
+  },
+  {
+    "job": "shift_1200_dt60_i3605",
+    "workload_sha256": "e67ab0e5c59fb264cea1bbbb39c7d0c958dded978d36d872c3c7846df63eb51a"
+  },
+  {
+    "job": "shift_1200_dt90_i3605",
+    "workload_sha256": "e67ab0e5c59fb264cea1bbbb39c7d0c958dded978d36d872c3c7846df63eb51a"
+  },
+  {
+    "job": "steady_900_dt15_i3606",
+    "workload_sha256": "d005a4ef6df1ce0422da6c5b8cb2dea90bf462be320c7d25e936ad226bafc704"
+  },
+  {
+    "job": "steady_900_dt30_i3606",
+    "workload_sha256": "d005a4ef6df1ce0422da6c5b8cb2dea90bf462be320c7d25e936ad226bafc704"
+  },
+  {
+    "job": "steady_900_dt60_i3606",
+    "workload_sha256": "d005a4ef6df1ce0422da6c5b8cb2dea90bf462be320c7d25e936ad226bafc704"
+  },
+  {
+    "job": "steady_900_dt90_i3606",
+    "workload_sha256": "d005a4ef6df1ce0422da6c5b8cb2dea90bf462be320c7d25e936ad226bafc704"
+  },
+  {
+    "job": "steady_1800_dt15_i3606",
+    "workload_sha256": "e073bc43069a86041c79d5e884c6fe448706212e74dca7f684132f4faa95266c"
+  },
+  {
+    "job": "steady_1800_dt30_i3606",
+    "workload_sha256": "e073bc43069a86041c79d5e884c6fe448706212e74dca7f684132f4faa95266c"
+  },
+  {
+    "job": "steady_1800_dt60_i3606",
+    "workload_sha256": "e073bc43069a86041c79d5e884c6fe448706212e74dca7f684132f4faa95266c"
+  },
+  {
+    "job": "steady_1800_dt90_i3606",
+    "workload_sha256": "e073bc43069a86041c79d5e884c6fe448706212e74dca7f684132f4faa95266c"
+  },
+  {
+    "job": "shift_1200_dt15_i3606",
+    "workload_sha256": "94f3dbd25e6dfb4c434116fdb6a6dee7d8f17a95194c081b5b3c4b6a6cb0a6ee"
+  },
+  {
+    "job": "shift_1200_dt30_i3606",
+    "workload_sha256": "94f3dbd25e6dfb4c434116fdb6a6dee7d8f17a95194c081b5b3c4b6a6cb0a6ee"
+  },
+  {
+    "job": "shift_1200_dt60_i3606",
+    "workload_sha256": "94f3dbd25e6dfb4c434116fdb6a6dee7d8f17a95194c081b5b3c4b6a6cb0a6ee"
+  },
+  {
+    "job": "shift_1200_dt90_i3606",
+    "workload_sha256": "94f3dbd25e6dfb4c434116fdb6a6dee7d8f17a95194c081b5b3c4b6a6cb0a6ee"
+  },
+  {
+    "job": "steady_900_dt15_i3607",
+    "workload_sha256": "210be9c61a103d1c4673d56475165bdd4f4b3195423b921c847f81735ebe39c6"
+  },
+  {
+    "job": "steady_900_dt30_i3607",
+    "workload_sha256": "210be9c61a103d1c4673d56475165bdd4f4b3195423b921c847f81735ebe39c6"
+  },
+  {
+    "job": "steady_900_dt60_i3607",
+    "workload_sha256": "210be9c61a103d1c4673d56475165bdd4f4b3195423b921c847f81735ebe39c6"
+  },
+  {
+    "job": "steady_900_dt90_i3607",
+    "workload_sha256": "210be9c61a103d1c4673d56475165bdd4f4b3195423b921c847f81735ebe39c6"
+  },
+  {
+    "job": "steady_1800_dt15_i3607",
+    "workload_sha256": "e0e046f3791f3b6ac420b362592fade60eca8009e8f76cfa46b586773f225011"
+  },
+  {
+    "job": "steady_1800_dt30_i3607",
+    "workload_sha256": "e0e046f3791f3b6ac420b362592fade60eca8009e8f76cfa46b586773f225011"
+  },
+  {
+    "job": "steady_1800_dt60_i3607",
+    "workload_sha256": "e0e046f3791f3b6ac420b362592fade60eca8009e8f76cfa46b586773f225011"
+  },
+  {
+    "job": "steady_1800_dt90_i3607",
+    "workload_sha256": "e0e046f3791f3b6ac420b362592fade60eca8009e8f76cfa46b586773f225011"
+  },
+  {
+    "job": "shift_1200_dt15_i3607",
+    "workload_sha256": "6bf819f1b0561f91a35c982b7eefdbdcd5fe17c9f7d4ce10e802f801fd7c6d06"
+  },
+  {
+    "job": "shift_1200_dt30_i3607",
+    "workload_sha256": "6bf819f1b0561f91a35c982b7eefdbdcd5fe17c9f7d4ce10e802f801fd7c6d06"
+  },
+  {
+    "job": "shift_1200_dt60_i3607",
+    "workload_sha256": "6bf819f1b0561f91a35c982b7eefdbdcd5fe17c9f7d4ce10e802f801fd7c6d06"
+  },
+  {
+    "job": "shift_1200_dt90_i3607",
+    "workload_sha256": "6bf819f1b0561f91a35c982b7eefdbdcd5fe17c9f7d4ce10e802f801fd7c6d06"
+  },
+  {
+    "job": "steady_900_dt15_i3608",
+    "workload_sha256": "2d2ece0eb5bc389b17f2d3477873b63ade95ad3bcb5fed48ee3759aae64e2bfb"
+  },
+  {
+    "job": "steady_900_dt30_i3608",
+    "workload_sha256": "2d2ece0eb5bc389b17f2d3477873b63ade95ad3bcb5fed48ee3759aae64e2bfb"
+  },
+  {
+    "job": "steady_900_dt60_i3608",
+    "workload_sha256": "2d2ece0eb5bc389b17f2d3477873b63ade95ad3bcb5fed48ee3759aae64e2bfb"
+  },
+  {
+    "job": "steady_900_dt90_i3608",
+    "workload_sha256": "2d2ece0eb5bc389b17f2d3477873b63ade95ad3bcb5fed48ee3759aae64e2bfb"
+  },
+  {
+    "job": "steady_1800_dt15_i3608",
+    "workload_sha256": "e41a7f7118d8e797a7caad828f5a4280ca190e5c9aaf56911645c33d22b6e783"
+  },
+  {
+    "job": "steady_1800_dt30_i3608",
+    "workload_sha256": "e41a7f7118d8e797a7caad828f5a4280ca190e5c9aaf56911645c33d22b6e783"
+  },
+  {
+    "job": "steady_1800_dt60_i3608",
+    "workload_sha256": "e41a7f7118d8e797a7caad828f5a4280ca190e5c9aaf56911645c33d22b6e783"
+  },
+  {
+    "job": "steady_1800_dt90_i3608",
+    "workload_sha256": "e41a7f7118d8e797a7caad828f5a4280ca190e5c9aaf56911645c33d22b6e783"
+  },
+  {
+    "job": "shift_1200_dt15_i3608",
+    "workload_sha256": "4bfcdbc2576e210670a0a63cd93324c31a15e9d81c0309fdace86bde9bf2468d"
+  },
+  {
+    "job": "shift_1200_dt30_i3608",
+    "workload_sha256": "4bfcdbc2576e210670a0a63cd93324c31a15e9d81c0309fdace86bde9bf2468d"
+  },
+  {
+    "job": "shift_1200_dt60_i3608",
+    "workload_sha256": "4bfcdbc2576e210670a0a63cd93324c31a15e9d81c0309fdace86bde9bf2468d"
+  },
+  {
+    "job": "shift_1200_dt90_i3608",
+    "workload_sha256": "4bfcdbc2576e210670a0a63cd93324c31a15e9d81c0309fdace86bde9bf2468d"
+  },
+  {
+    "job": "steady_900_dt15_i3609",
+    "workload_sha256": "96127b524de6048ba4abdbc4b295c8a995b7bbe0323b40ed1a3444f63f594a56"
+  },
+  {
+    "job": "steady_900_dt30_i3609",
+    "workload_sha256": "96127b524de6048ba4abdbc4b295c8a995b7bbe0323b40ed1a3444f63f594a56"
+  },
+  {
+    "job": "steady_900_dt60_i3609",
+    "workload_sha256": "96127b524de6048ba4abdbc4b295c8a995b7bbe0323b40ed1a3444f63f594a56"
+  },
+  {
+    "job": "steady_900_dt90_i3609",
+    "workload_sha256": "96127b524de6048ba4abdbc4b295c8a995b7bbe0323b40ed1a3444f63f594a56"
+  },
+  {
+    "job": "steady_1800_dt15_i3609",
+    "workload_sha256": "36928a0b270ad4c0efdef99d1d74d67109582b057657e45374c375b1a2bb6c58"
+  },
+  {
+    "job": "steady_1800_dt30_i3609",
+    "workload_sha256": "36928a0b270ad4c0efdef99d1d74d67109582b057657e45374c375b1a2bb6c58"
+  },
+  {
+    "job": "steady_1800_dt60_i3609",
+    "workload_sha256": "36928a0b270ad4c0efdef99d1d74d67109582b057657e45374c375b1a2bb6c58"
+  },
+  {
+    "job": "steady_1800_dt90_i3609",
+    "workload_sha256": "36928a0b270ad4c0efdef99d1d74d67109582b057657e45374c375b1a2bb6c58"
+  },
+  {
+    "job": "shift_1200_dt15_i3609",
+    "workload_sha256": "8307915269a9d782dd88de2b497027edb65dbbc7cdb5cbf229ad5362296e0abf"
+  },
+  {
+    "job": "shift_1200_dt30_i3609",
+    "workload_sha256": "8307915269a9d782dd88de2b497027edb65dbbc7cdb5cbf229ad5362296e0abf"
+  },
+  {
+    "job": "shift_1200_dt60_i3609",
+    "workload_sha256": "8307915269a9d782dd88de2b497027edb65dbbc7cdb5cbf229ad5362296e0abf"
+  },
+  {
+    "job": "shift_1200_dt90_i3609",
+    "workload_sha256": "8307915269a9d782dd88de2b497027edb65dbbc7cdb5cbf229ad5362296e0abf"
+  },
+  {
+    "job": "steady_900_dt15_i3610",
+    "workload_sha256": "f5f0165f634240fb307ae1d79db35011ced77b3e5b4bbb7b7be985d8adc2d59c"
+  },
+  {
+    "job": "steady_900_dt30_i3610",
+    "workload_sha256": "f5f0165f634240fb307ae1d79db35011ced77b3e5b4bbb7b7be985d8adc2d59c"
+  },
+  {
+    "job": "steady_900_dt60_i3610",
+    "workload_sha256": "f5f0165f634240fb307ae1d79db35011ced77b3e5b4bbb7b7be985d8adc2d59c"
+  },
+  {
+    "job": "steady_900_dt90_i3610",
+    "workload_sha256": "f5f0165f634240fb307ae1d79db35011ced77b3e5b4bbb7b7be985d8adc2d59c"
+  },
+  {
+    "job": "steady_1800_dt15_i3610",
+    "workload_sha256": "ad9ed4b86ad00f9fa23e2239068c3234770a9e7a1e38826ed5193bd9761d9a18"
+  },
+  {
+    "job": "steady_1800_dt30_i3610",
+    "workload_sha256": "ad9ed4b86ad00f9fa23e2239068c3234770a9e7a1e38826ed5193bd9761d9a18"
+  },
+  {
+    "job": "steady_1800_dt60_i3610",
+    "workload_sha256": "ad9ed4b86ad00f9fa23e2239068c3234770a9e7a1e38826ed5193bd9761d9a18"
+  },
+  {
+    "job": "steady_1800_dt90_i3610",
+    "workload_sha256": "ad9ed4b86ad00f9fa23e2239068c3234770a9e7a1e38826ed5193bd9761d9a18"
+  },
+  {
+    "job": "shift_1200_dt15_i3610",
+    "workload_sha256": "046e5707c3a1aec0934ecda0b5675aca7a39a5a7445333e06d6fa62f05615fcf"
+  },
+  {
+    "job": "shift_1200_dt30_i3610",
+    "workload_sha256": "046e5707c3a1aec0934ecda0b5675aca7a39a5a7445333e06d6fa62f05615fcf"
+  },
+  {
+    "job": "shift_1200_dt60_i3610",
+    "workload_sha256": "046e5707c3a1aec0934ecda0b5675aca7a39a5a7445333e06d6fa62f05615fcf"
+  },
+  {
+    "job": "shift_1200_dt90_i3610",
+    "workload_sha256": "046e5707c3a1aec0934ecda0b5675aca7a39a5a7445333e06d6fa62f05615fcf"
+  }
+]

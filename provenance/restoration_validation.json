@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-15",
+  "source_archive_sha256": "2e6c641ff0b94a06c588e979a8ccd9e142cb2df6ccc2d5be36f79557111ea897",
+  "artifact_manifest_sha256": "4139d666afeff561e085e33e6229a0a89a8ae35bfbaad5571d173c7c2c7d85df",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.1.2",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "Flask": "3.1.2",
+    "pytest": "8.3.5"
+  },
+  "checks": {
+    "setup": "passed",
+    "artifact_files_verified": 235,
+    "frozen_runtime_inputs_verified": 94,
+    "regression_tests_passed": 42,
+    "archived_statistics": "passed",
+    "table4_frozen_candidate_models": "passed",
+    "table4_state_only_archived_predictions": "passed",
+    "calibration_table": "passed",
+    "archived_result_packaging": "passed"
+  },
+  "fresh_smoke": {
+    "passed": true,
+    "executed_simulations": 53,
+    "lambda_calibration": 9,
+    "static_calibration": 8,
+    "main_evaluations": 22,
+    "additional_edge_first_exp3": 2,
+    "delta_t": 12,
+    "completion_records": {
+      "lambda_calibration": {
+        "completed": 9,
+        "expected": 9,
+        "matched_pairs": 3,
+        "complete": true,
+        "note": "Calibration only. No setting automatically chosen. Freeze selection before final-study seeds."
+      },
+      "guard_on": {
+        "complete": true,
+        "completed": 22,
+        "expected": 22,
+        "matched_pairs": 1,
+        "profile": "smoke",
+        "iterations": [
+          3491
+        ],
+        "model_retraining": false,
+        "note": "Finish the entire registered set before final figures. No automatic winner, parameter adjustment, or selective stopping."
+      },
+      "main": {
+        "complete": true,
+        "completed": 22,
+        "expected": 22,
+        "matched_pairs": 1,
+        "profile": "smoke",
+        "iterations": [
+          3491
+        ],
+        "model_retraining": false,
+        "note": "Post-confirmation EXP3 routing ablation, not a new independent confirmation. Keep the guard-on comparison. Main Holm family recomputed, retaining all comparators.",
+        "new_exp3_completed": 2,
+        "new_exp3_expected": 2,
+        "reused_unchanged": 20,
+        "exp3_routing_schema": "edge_first_v1"
+      },
+      "delta_t": {
+        "complete": true,
+        "completed": 12,
+        "expected": 12,
+        "profile": "smoke",
+        "iterations": [
+          3691
+        ],
+        "matched_workload_groups": 3,
+        "model_retraining": false,
+        "note": "Complete all registered runs before paper figures. Failure denominator: completed + failed. Service time is conditional on completion."
+      }
+    }
+  },
+  "limits": [
+    "The full 637-simulation paper suite was not rerun in this recovery session.",
+    "MATLAB and macOS were unavailable; figure exports were not executed here.",
+    "The historical fitted state-only models are absent; their table values are verified from archived predictions.",
+    "Optional model refitting was not repeated; the previously documented refitting discrepancy remains unresolved."
+  ],
+  "manuscript_alignment": "Corrected Table 4 values were checked. The latest supplied manuscript still references historical Delta T image filenames; use the completed-study panels and reconcile the caption before submission."
+}

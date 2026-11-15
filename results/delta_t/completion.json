@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "completed": 120,
+  "expected": 120,
+  "profile": "full",
+  "iterations": [
+    3601,
+    3602,
+    3603,
+    3604,
+    3605,
+    3606,
+    3607,
+    3608,
+    3609,
+    3610
+  ],
+  "matched_workload_groups": 30,
+  "model_retraining": false,
+  "note": "Complete all registered runs before paper figures. Failure denominator: completed + failed. Service time is conditional on completion."
+}

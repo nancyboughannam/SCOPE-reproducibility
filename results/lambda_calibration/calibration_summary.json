@@ -1,0 +1,1076 @@
+{
+  "description": "Calibration means and exploratory paired t intervals; three independent seeds, no multiplicity adjustment or automatic lambda selection",
+  "means": [
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.21466474019076306,
+      "lower": 0.08639707616469527,
+      "upper": 0.34293240421683086
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5284667960304112,
+      "lower": 0.49833909784229174,
+      "upper": 0.5585944942185308
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 77.66752429802234,
+      "lower": 72.9291635641504,
+      "upper": 82.40588503189429
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 1.3433862433862434,
+      "lower": 1.0601901951146337,
+      "upper": 1.626582291657853
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "changes",
+      "n": 3,
+      "mean": 10.0,
+      "lower": 7.515862288280454,
+      "upper": 12.484137711719546
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.19630734709095263,
+      "lower": 0.05723542028281606,
+      "upper": 0.33537927389908917
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5343567600300615,
+      "lower": 0.5125208701144883,
+      "upper": 0.5561926499456347
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 77.0916270534759,
+      "lower": 72.99765842959968,
+      "upper": 81.18559567735213
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.6689153439153438,
+      "lower": 0.45833577910217294,
+      "upper": 0.8794949087285147
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "changes",
+      "n": 3,
+      "mean": 4.666666666666667,
+      "lower": 3.2324490901012863,
+      "upper": 6.100884243232048
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.2094214170910901,
+      "lower": 0.10280345103232982,
+      "upper": 0.31603938314985036
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5574087114359795,
+      "lower": 0.5162245690190533,
+      "upper": 0.5985928538529056
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 75.06939074003903,
+      "lower": 69.82938927735769,
+      "upper": 80.30939220272036
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.17579365079365078,
+      "lower": 0.04261630439829406,
+      "upper": 0.3089709971890075
+    },
+    {
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "changes",
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "lower": 0.23244909010128612,
+      "upper": 3.1008842432320476
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.26754178634883996,
+      "lower": 0.12192490834808259,
+      "upper": 0.41315866434959736
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5449592772446842,
+      "lower": 0.49957235476279316,
+      "upper": 0.5903461997265752
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 76.259463795133,
+      "lower": 71.10116567378292,
+      "upper": 81.41776191648309
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.6646825396825397,
+      "lower": 0.4632091182126409,
+      "upper": 0.8661559611524384
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "metric": "changes",
+      "n": 3,
+      "mean": 4.666666666666667,
+      "lower": 3.2324490901012863,
+      "upper": 6.100884243232048
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.21348472935448978,
+      "lower": 0.09836687026629966,
+      "upper": 0.3286025884426799
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5392997666136519,
+      "lower": 0.5074404508614914,
+      "upper": 0.5711590823658124
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 76.71752967238947,
+      "lower": 72.04674263555215,
+      "upper": 81.3883167092268
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.1496031746031746,
+      "lower": 0.1496031746031746,
+      "upper": 0.1496031746031746
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "metric": "changes",
+      "n": 3,
+      "mean": 1.0,
+      "lower": 1.0,
+      "upper": 1.0
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.209422623810418,
+      "lower": 0.09137567383733311,
+      "upper": 0.32746957378350294
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5613899803869782,
+      "lower": 0.5207120897682177,
+      "upper": 0.6020678710057387
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 74.61214090369046,
+      "lower": 69.30817852432199,
+      "upper": 79.91610328305893
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.1138888888888889,
+      "lower": 0.1138888888888889,
+      "upper": 0.1138888888888889
+    },
+    {
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "metric": "changes",
+      "n": 3,
+      "mean": 1.0,
+      "lower": 1.0,
+      "upper": 1.0
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.44398333722516975,
+      "lower": -0.3259722122668552,
+      "upper": 1.2139388867171947
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.5817538519613668,
+      "lower": 0.5729092252996819,
+      "upper": 0.5905984786230516
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 70.11045514284046,
+      "lower": 67.25961541117923,
+      "upper": 72.9612948745017
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 1.0044973544973543,
+      "lower": 0.30741558544341574,
+      "upper": 1.701579123551293
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "metric": "changes",
+      "n": 3,
+      "mean": 7.333333333333333,
+      "lower": 3.538750299783597,
+      "upper": 11.127916366883069
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.2702361253809696,
+      "lower": 0.25068706975787125,
+      "upper": 0.2897851810040679
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.588181087813775,
+      "lower": 0.5711516188616402,
+      "upper": 0.6052105567659097
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 69.50113488926196,
+      "lower": 65.74208565047427,
+      "upper": 73.26018412804966
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.339021164021164,
+      "lower": -0.47597866520170296,
+      "upper": 1.154020993244031
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "metric": "changes",
+      "n": 3,
+      "mean": 2.3333333333333335,
+      "lower": -3.403536972928189,
+      "upper": 8.070203639594856
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": 0.276943503668481,
+      "lower": 0.24454360865090388,
+      "upper": 0.3093433986860581
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": 0.600394427886148,
+      "lower": 0.5676933770855687,
+      "upper": 0.6330954786867274
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 68.46269782920382,
+      "lower": 64.94009873725813,
+      "upper": 71.98529692114951
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.1376984126984127,
+      "lower": 0.08647635639250628,
+      "upper": 0.18892046900431914
+    },
+    {
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "metric": "changes",
+      "n": 3,
+      "mean": 1.0,
+      "lower": 1.0,
+      "upper": 1.0
+    }
+  ],
+  "paired_differences": [
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.0,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": -0.05287704615807686,
+      "lower": -0.0761632877785847,
+      "upper": -0.029590804537569012,
+      "individual_differences": [
+        -0.06000861776982541,
+        -0.042259530208631185,
+        -0.05636299049577398
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.0,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": -0.016492481214272936,
+      "lower": -0.03850304510423241,
+      "upper": 0.005518082675686535,
+      "individual_differences": [
+        -0.026627929481257584,
+        -0.010215629314875296,
+        -0.012633884846685928
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.0,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 1.4080605028893463,
+      "lower": -0.8699570055656733,
+      "upper": 3.6860780113443656,
+      "individual_differences": [
+        2.465412175674473,
+        0.9287937755232036,
+        0.8299755574703624
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.0,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.6787037037037036,
+      "lower": 0.4299999779595727,
+      "upper": 0.9274074294478345,
+      "individual_differences": [
+        0.7043650793650793,
+        0.5682539682539681,
+        0.7634920634920633
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.0,
+      "metric": "changes",
+      "n": 3,
+      "mean": 5.333333333333333,
+      "lower": 2.464898180202572,
+      "upper": 8.201768486464093,
+      "individual_differences": [
+        6.0,
+        4.0,
+        6.0
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.01,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": -0.017177382263537166,
+      "lower": -0.06971235064154198,
+      "upper": 0.03535758611446764,
+      "individual_differences": [
+        -0.03074644650464614,
+        0.007189968055825585,
+        -0.027975668341790938
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.01,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": -0.00494300658359037,
+      "lower": -0.015114127873012433,
+      "upper": 0.005228114705831692,
+      "individual_differences": [
+        -0.006851480274718713,
+        -0.0002427543713904301,
+        -0.0077347851046619676
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.01,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 0.3740973810864195,
+      "lower": -0.2749495549248125,
+      "upper": 1.0231443170976515,
+      "individual_differences": [
+        0.5100559897184525,
+        0.07287597255434264,
+        0.5393601809864634
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.01,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.5193121693121692,
+      "lower": 0.3087326044989983,
+      "upper": 0.72989173412534,
+      "individual_differences": [
+        0.5682539682539681,
+        0.4214285714285714,
+        0.5682539682539681
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.01,
+      "metric": "changes",
+      "n": 3,
+      "mean": 3.6666666666666665,
+      "lower": 2.232449090101286,
+      "upper": 5.100884243232047,
+      "individual_differences": [
+        4.0,
+        3.0,
+        4.0
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.05,
+      "metric": "failure_pct",
+      "n": 3,
+      "mean": -1.2067193278878878e-06,
+      "lower": -0.025710014773807067,
+      "upper": 0.02570760133515129,
+      "individual_differences": [
+        0.0,
+        0.010347377811083025,
+        -0.010350997969066689
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.05,
+      "metric": "service_seconds",
+      "n": 3,
+      "mean": -0.003981268950998669,
+      "lower": -0.012812618914043453,
+      "upper": 0.004850081012046114,
+      "individual_differences": [
+        0.0,
+        -0.005105395364523813,
+        -0.006838411488472196
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.05,
+      "metric": "qoe_all_pct",
+      "n": 3,
+      "mean": 0.4572498363485664,
+      "lower": -0.5447123283576649,
+      "upper": 1.4592120010547978,
+      "individual_differences": [
+        0.0,
+        0.6092042724998237,
+        0.7625452365458756
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.05,
+      "metric": "total_movement",
+      "n": 3,
+      "mean": 0.061904761904761886,
+      "lower": -0.07127258449059484,
+      "upper": 0.1950821083001186,
+      "individual_differences": [
+        0.0,
+        0.09285714285714283,
+        0.09285714285714283
+      ]
+    },
+    {
+      "comparison": "adaptive minus matched frozen",
+      "lambda_value": 0.05,
+      "metric": "changes",
+      "n": 3,
+      "mean": 0.6666666666666666,
+      "lower": -0.767550909898714,
+      "upper": 2.100884243232047,
+      "individual_differences": [
+        0.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "change_timing": [
+    {
+      "job": "steady_l0p00_adaptive_i3301_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0,
+        1090.0,
+        1150.0,
+        1810.0,
+        1870.0,
+        2410.0,
+        2470.0,
+        3190.0,
+        3250.0
+      ],
+      "changes_during_increase": 2,
+      "changes_during_recovery": 4
+    },
+    {
+      "job": "burst_l0p00_adaptive_i3301_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0,
+        370.0,
+        610.0,
+        1030.0,
+        1210.0,
+        1270.0,
+        1330.0,
+        1390.0,
+        1450.0,
+        1510.0
+      ],
+      "changes_during_increase": 6,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p00_frozen_i3301_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0,
+        370.0,
+        610.0,
+        1030.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p01_adaptive_i3301_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p01_adaptive_i3301_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0,
+        1570.0,
+        1630.0,
+        1690.0,
+        1750.0
+      ],
+      "changes_during_increase": 4,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p01_frozen_i3301_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p05_adaptive_i3301_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "iteration": 3301,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p05_adaptive_i3301_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "iteration": 3301,
+      "all_change_times": [
+        310.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p05_frozen_i3301_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "iteration": 3301,
+      "all_change_times": [
+        310.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p00_adaptive_i3302_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0,
+        130.0,
+        190.0,
+        250.0,
+        310.0,
+        370.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p00_adaptive_i3302_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0,
+        370.0,
+        490.0,
+        1030.0,
+        1090.0,
+        1210.0,
+        1270.0,
+        1330.0,
+        1390.0
+      ],
+      "changes_during_increase": 4,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p00_frozen_i3302_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0,
+        370.0,
+        490.0,
+        1030.0,
+        1090.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p01_adaptive_i3302_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p01_adaptive_i3302_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0,
+        1810.0,
+        2050.0,
+        2410.0
+      ],
+      "changes_during_increase": 2,
+      "changes_during_recovery": 1
+    },
+    {
+      "job": "burst_l0p01_frozen_i3302_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p05_adaptive_i3302_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "iteration": 3302,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p05_adaptive_i3302_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "iteration": 3302,
+      "all_change_times": [
+        310.0,
+        2290.0
+      ],
+      "changes_during_increase": 1,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p05_frozen_i3302_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "iteration": 3302,
+      "all_change_times": [
+        310.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p00_adaptive_i3303_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0,
+        310.0,
+        370.0,
+        430.0,
+        550.0,
+        610.0,
+        670.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p00_adaptive_i3303_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.0,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0,
+        310.0,
+        610.0,
+        970.0,
+        1150.0,
+        1210.0,
+        1270.0,
+        1390.0,
+        1450.0,
+        1510.0,
+        1570.0
+      ],
+      "changes_during_increase": 6,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p00_frozen_i3303_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.0,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0,
+        310.0,
+        610.0,
+        970.0,
+        1150.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p01_adaptive_i3303_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0,
+        2350.0,
+        2410.0,
+        2470.0,
+        2530.0
+      ],
+      "changes_during_increase": 1,
+      "changes_during_recovery": 3
+    },
+    {
+      "job": "burst_l0p01_adaptive_i3303_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.01,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0,
+        1690.0,
+        1750.0,
+        1810.0,
+        1870.0
+      ],
+      "changes_during_increase": 4,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p01_frozen_i3303_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.01,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "steady_l0p05_adaptive_i3303_n1800",
+      "case": "steady",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "iteration": 3303,
+      "all_change_times": [
+        70.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p05_adaptive_i3303_n1200",
+      "case": "burst",
+      "variant": "adaptive",
+      "lambda_value": 0.05,
+      "iteration": 3303,
+      "all_change_times": [
+        250.0,
+        2290.0
+      ],
+      "changes_during_increase": 1,
+      "changes_during_recovery": 0
+    },
+    {
+      "job": "burst_l0p05_frozen_i3303_n1200",
+      "case": "burst",
+      "variant": "frozen",
+      "lambda_value": 0.05,
+      "iteration": 3303,
+      "all_change_times": [
+        250.0
+      ],
+      "changes_during_increase": 0,
+      "changes_during_recovery": 0
+    }
+  ],
+  "decision_count": 1593,
+  "max_step": 0.14999999999999997,
+  "source_completion": {
+    "completed": 27,
+    "expected": 27,
+    "matched_pairs": 9,
+    "complete": true,
+    "note": "Calibration only. No setting automatically chosen. Freeze selection before final-study seeds."
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "lambda_value": 0.01,
+    "iteration": 3401,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3402,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3403,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3404,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3405,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3406,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3407,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3408,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3409,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  },
+  {
+    "lambda_value": 0.01,
+    "iteration": 3410,
+    "load": 1200,
+    "workload_match": true,
+    "identical_history_through": 1210.0,
+    "pre_intervention_requests": 20,
+    "frozen_configuration": {
+      "candidate_alpha": 0.8,
+      "candidate_w_load_0": 0.9,
+      "candidate_w_load_1": 0.7,
+      "candidate_w_load_2": 0.5,
+      "candidate_threshold_0": 85.0,
+      "candidate_threshold_1": 85.0,
+      "candidate_threshold_2": 80.0
+    }
+  }
+]

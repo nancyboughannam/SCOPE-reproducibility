@@ -1,0 +1,397 @@
+{
+  "source_archive": "v5_final_3401_3410_review_20261112T190405Z.zip",
+  "source_and_library_files": 65,
+  "all_match": true,
+  "files": [
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/core/SimSettings.java",
+      "expected": "d6b52ea76c62a0c6f4230b9abb2be568b1ffbacc5981ee6e3b47dbdcaad3ba50",
+      "actual": "d6b52ea76c62a0c6f4230b9abb2be568b1ffbacc5981ee6e3b47dbdcaad3ba50",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/core/ScenarioFactory.java",
+      "expected": "fe1f7aa7d21137850482d5c92146bf2186e086947374f3592d3864a0897d58c8",
+      "actual": "fe1f7aa7d21137850482d5c92146bf2186e086947374f3592d3864a0897d58c8",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/core/SimManager.java",
+      "expected": "f27b541c84dc7891ffc3f73a28f00915ccd63778ade339a4b79ecce855eb4b0e",
+      "actual": "f27b541c84dc7891ffc3f73a28f00915ccd63778ade339a4b79ecce855eb4b0e",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_server/EdgeVM.java",
+      "expected": "c64f4cd39f28e67592be69dc05b068550078d1aab0b06498977f2553a6cf776b",
+      "actual": "c64f4cd39f28e67592be69dc05b068550078d1aab0b06498977f2553a6cf776b",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_server/DefaultEdgeServerManager.java",
+      "expected": "d1a3024a8b2622999b093b00fc5d678666d8d71a89aef3515f768b8e2444eec0",
+      "actual": "d1a3024a8b2622999b093b00fc5d678666d8d71a89aef3515f768b8e2444eec0",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_server/EdgeServerManager.java",
+      "expected": "1f78121fae53b438aaa7a3ef8573091ff252b9724d12a14a888d0618a72f8ffc",
+      "actual": "1f78121fae53b438aaa7a3ef8573091ff252b9724d12a14a888d0618a72f8ffc",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_server/EdgeVmAllocationPolicy_Custom.java",
+      "expected": "8d0ba6ad09dfde1c4636097fffb6ebf71a1b6e5f191d049d582519b3df42c18d",
+      "actual": "8d0ba6ad09dfde1c4636097fffb6ebf71a1b6e5f191d049d582519b3df42c18d",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_server/EdgeHost.java",
+      "expected": "c1a87993593ed61291f0bd0195e5e64004125bc45dea8ed38f4cdfb10b9d9699",
+      "actual": "c1a87993593ed61291f0bd0195e5e64004125bc45dea8ed38f4cdfb10b9d9699",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/network/MM1Queue.java",
+      "expected": "cbdf7f00d8e60aff82692b7f26bb87e6642bf0a9fbb52a3d68b4344772b03e1e",
+      "actual": "cbdf7f00d8e60aff82692b7f26bb87e6642bf0a9fbb52a3d68b4344772b03e1e",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/network/NetworkModel.java",
+      "expected": "528198af1949111f9f2d99511ffca69d5019716309c657a6652dbb7ee0dbac52",
+      "actual": "528198af1949111f9f2d99511ffca69d5019716309c657a6652dbb7ee0dbac52",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/utils/SimUtils.java",
+      "expected": "26355fcdb5fe6a83ee0262d6b0029189ac2290825eff6134eba9391a6b55b0f6",
+      "actual": "26355fcdb5fe6a83ee0262d6b0029189ac2290825eff6134eba9391a6b55b0f6",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/utils/PoissonDistr.java",
+      "expected": "5972b99c807cdc93438e3388c4484d67ce8fe44b4ce85740e8fec78f8c257f9c",
+      "actual": "5972b99c807cdc93438e3388c4484d67ce8fe44b4ce85740e8fec78f8c257f9c",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/utils/TaskProperty.java",
+      "expected": "150d7c6a19925c29ec6631e20c0b57e3d8e9569b1a2e32a79cb76b5715af0e0c",
+      "actual": "150d7c6a19925c29ec6631e20c0b57e3d8e9569b1a2e32a79cb76b5715af0e0c",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/utils/Location.java",
+      "expected": "94900bc7f5978694ac27e6428b3e1cb8d0fc9913b1a79cdfa18b5696eaabe0a1",
+      "actual": "94900bc7f5978694ac27e6428b3e1cb8d0fc9913b1a79cdfa18b5696eaabe0a1",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/utils/SimLogger.java",
+      "expected": "a90921cb550487406a55a9689a181719f52e10e7b71de565b104547dd8a6e180",
+      "actual": "a90921cb550487406a55a9689a181719f52e10e7b71de565b104547dd8a6e180",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/mobility/MobilityModel.java",
+      "expected": "d77d796687b717a526113599e062fa491e84dfe284b297aaf5353da030658fcc",
+      "actual": "d77d796687b717a526113599e062fa491e84dfe284b297aaf5353da030658fcc",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/mobility/NomadicMobility.java",
+      "expected": "306f1ae8b431ac54f4011c47d02b0656d6df22660d2f1d1edd9bd86aa487bbae",
+      "actual": "306f1ae8b431ac54f4011c47d02b0656d6df22660d2f1d1edd9bd86aa487bbae",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularMainApp.java",
+      "expected": "8951711b93dbdcc7b28ac4707e3d6e1bf2320cf5ca048b83fa84168369a8feb8",
+      "actual": "8951711b93dbdcc7b28ac4707e3d6e1bf2320cf5ca048b83fa84168369a8feb8",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularCpuUtilizationModel.java",
+      "expected": "e1b05849c1b87fd4359da2bdace94a60d24a76118cd82ec67f20774da66af0c5",
+      "actual": "e1b05849c1b87fd4359da2bdace94a60d24a76118cd82ec67f20774da66af0c5",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularEdgeOrchestrator.java",
+      "expected": "235330b9c6ec694d1152e444a93c3e4183ba48ee622d33d281ab44630768d8b2",
+      "actual": "235330b9c6ec694d1152e444a93c3e4183ba48ee622d33d281ab44630768d8b2",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularMobilityModel.java",
+      "expected": "25600c8556bc9f244d5296419ee49f3cd6b76f2a951292aa640ce7ed0c49c6c5",
+      "actual": "25600c8556bc9f244d5296419ee49f3cd6b76f2a951292aa640ce7ed0c49c6c5",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/OrchestratorTrainerLogger.java",
+      "expected": "28f769cb088af453593ebabdf2a63e6b2528a23114398ad64761ea50f7df8cdd",
+      "actual": "28f769cb088af453593ebabdf2a63e6b2528a23114398ad64761ea50f7df8cdd",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularLoadGenerator.java",
+      "expected": "79b570ba7cd3733006ea41c096ff9aa324bae3eec7901f1bcccedacae6992a50",
+      "actual": "79b570ba7cd3733006ea41c096ff9aa324bae3eec7901f1bcccedacae6992a50",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/MultiArmedBanditHelper.java",
+      "expected": "64b3d39bf2a2b1367ee6e065739a8c9323be175ca5a0cb125b9e80e2c3349fd6",
+      "actual": "64b3d39bf2a2b1367ee6e065739a8c9323be175ca5a0cb125b9e80e2c3349fd6",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularNetworkModel.java",
+      "expected": "c1b09b8380aaef4ac778f91ddd01177b1c6b36ba7008111f821a41dad4569775",
+      "actual": "c1b09b8380aaef4ac778f91ddd01177b1c6b36ba7008111f821a41dad4569775",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/WekaWrapper.java",
+      "expected": "ada5f92182c718682cf9dbc535679878a939db0d2fbecb5151dff46c6ba7bb06",
+      "actual": "ada5f92182c718682cf9dbc535679878a939db0d2fbecb5151dff46c6ba7bb06",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularEdgeServerManager.java",
+      "expected": "c41bc60276623457e11139fa0f0c9a1f38f0ff3fcf0050ca392e6a44692820c6",
+      "actual": "c41bc60276623457e11139fa0f0c9a1f38f0ff3fcf0050ca392e6a44692820c6",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/README.md",
+      "expected": "6abef41c7588e14b26ff5d192a4344d5bcf4031929535eb18dbe3f388c352141",
+      "actual": "6abef41c7588e14b26ff5d192a4344d5bcf4031929535eb18dbe3f388c352141",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/GameTheoryHelper.java",
+      "expected": "86b4cddca8128645bacd1b0859a321d5309716c26fe504f6474789476522a381",
+      "actual": "86b4cddca8128645bacd1b0859a321d5309716c26fe504f6474789476522a381",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/OptimizerReply.java",
+      "expected": "d7db05dc47e2d91e35f2cc57cf479c268dcb942024f77b882b17865d381e2d50",
+      "actual": "d7db05dc47e2d91e35f2cc57cf479c268dcb942024f77b882b17865d381e2d50",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/ArrivalRateSchedule.java",
+      "expected": "216dbf5456cd2721cd829dc5d1c17b872b4f3d13103b307b9c608cafce1c93d1",
+      "actual": "216dbf5456cd2721cd829dc5d1c17b872b4f3d13103b307b9c608cafce1c93d1",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularMobileServerManager.java",
+      "expected": "9ff3094763e45237e150e3c32614c11001792ffeb0286b019800455bb09cacd7",
+      "actual": "9ff3094763e45237e150e3c32614c11001792ffeb0286b019800455bb09cacd7",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/OrchestratorStatisticLogger.java",
+      "expected": "c92a0161ab86930ee298adb67563f92cb72ee26538389986e511c29175a2728e",
+      "actual": "c92a0161ab86930ee298adb67563f92cb72ee26538389986e511c29175a2728e",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/EdgeVmSelector.java",
+      "expected": "42055f4b5082871b49a3cd15ee117820ed5bb7688d0b0ed6d460f54e2f6bda4a",
+      "actual": "42055f4b5082871b49a3cd15ee117820ed5bb7688d0b0ed6d460f54e2f6bda4a",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/Exp3FeedbackTracker.java",
+      "expected": "802d27025e2b3e9e2baa93ad16d227e2025a27aee7baac7615382d914f231b16",
+      "actual": "802d27025e2b3e9e2baa93ad16d227e2025a27aee7baac7615382d914f231b16",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/DeadlineTierGuard.java",
+      "expected": "8c103da65690f5474b804a4c516048b0e3847dc15dfd3f525384e7216bbbd5f8",
+      "actual": "8c103da65690f5474b804a4c516048b0e3847dc15dfd3f525384e7216bbbd5f8",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularMobileDeviceManager.java",
+      "expected": "5bdf9c9ab5f672d156d1d37df7444a7af6c1291bec2d9552ffea35065e0e7a4d",
+      "actual": "5bdf9c9ab5f672d156d1d37df7444a7af6c1291bec2d9552ffea35065e0e7a4d",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularScenarioFactory.java",
+      "expected": "2893b136318e72a6ff252f9e49413de8ae1372e1e5d8529089b3299102d6a01e",
+      "actual": "2893b136318e72a6ff252f9e49413de8ae1372e1e5d8529089b3299102d6a01e",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_orchestrator/EdgeOrchestrator.java",
+      "expected": "aabee21c36e94a35fecb49c90e2f5b2fb642a66c6810c5a62988fc1769f9f5dd",
+      "actual": "aabee21c36e94a35fecb49c90e2f5b2fb642a66c6810c5a62988fc1769f9f5dd",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_orchestrator/BasicEdgeOrchestrator.java",
+      "expected": "143b0a87140bd7b6ca0ad3f8c3759eb23d4308a02e4f1dad662e1723e8a0f1b3",
+      "actual": "143b0a87140bd7b6ca0ad3f8c3759eb23d4308a02e4f1dad662e1723e8a0f1b3",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/cloud_server/CloudServerManager.java",
+      "expected": "7dd09f806b07ee67f95caee73c7588e5372c8fde5829fb0c285941dd835a5feb",
+      "actual": "7dd09f806b07ee67f95caee73c7588e5372c8fde5829fb0c285941dd835a5feb",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/cloud_server/CloudVmAllocationPolicy_Custom.java",
+      "expected": "ecc16ee19d7210c44674a05b651daffc38509f9987334aca21e359789ad072bc",
+      "actual": "ecc16ee19d7210c44674a05b651daffc38509f9987334aca21e359789ad072bc",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/cloud_server/CloudVM.java",
+      "expected": "bf01914fc3f3b5fa0c0f74b4912df7cf7310c2395695d0f5c9f50b8affe95c42",
+      "actual": "bf01914fc3f3b5fa0c0f74b4912df7cf7310c2395695d0f5c9f50b8affe95c42",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/cloud_server/DefaultCloudServerManager.java",
+      "expected": "b971d2521eac591411a4159df3c4b845472021a2c44ec5a82bb42b248b9759fe",
+      "actual": "b971d2521eac591411a4159df3c4b845472021a2c44ec5a82bb42b248b9759fe",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/DefaultMobileDeviceManager.java",
+      "expected": "1af5e7a565058dd12c2b89ae2e9a239dcf14eee3c07a191cf483f4f22e8b1375",
+      "actual": "1af5e7a565058dd12c2b89ae2e9a239dcf14eee3c07a191cf483f4f22e8b1375",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/MobileDeviceManager.java",
+      "expected": "978e6e87e8872243a1b72dc3cd423b0deadd4402534712553f0766bc459022a5",
+      "actual": "978e6e87e8872243a1b72dc3cd423b0deadd4402534712553f0766bc459022a5",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/Task.java",
+      "expected": "843d4ea304610e02800a868ba74fb0343109528f40f592aa86387df6571211ae",
+      "actual": "843d4ea304610e02800a868ba74fb0343109528f40f592aa86387df6571211ae",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/CpuUtilizationModel_Custom.java",
+      "expected": "37caf346399e884c777d80764d116a1321869ded766c69cfe1727ded1d2d4a18",
+      "actual": "37caf346399e884c777d80764d116a1321869ded766c69cfe1727ded1d2d4a18",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/mobile_processing_unit/MobileServerManager.java",
+      "expected": "75a20511e994fb0f3a6df85421d5a705ca0185f10bf6e3c2107849afa9e236d5",
+      "actual": "75a20511e994fb0f3a6df85421d5a705ca0185f10bf6e3c2107849afa9e236d5",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/mobile_processing_unit/MobileVmAllocationPolicy_Custom.java",
+      "expected": "778558a4f0591cfd2933ea74dd3e38cf416630e1ef9612b6fa015a051a25eb52",
+      "actual": "778558a4f0591cfd2933ea74dd3e38cf416630e1ef9612b6fa015a051a25eb52",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/mobile_processing_unit/DefaultMobileServerManager.java",
+      "expected": "ed0f8e7c6b6a7e051917fa552a5507e9f316a11a4b090da99c4f848d77f49faa",
+      "actual": "ed0f8e7c6b6a7e051917fa552a5507e9f316a11a4b090da99c4f848d77f49faa",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/mobile_processing_unit/MobileHost.java",
+      "expected": "53a682ea9594680e766faf54bc4a416e98faf8bf1652b7923b3cf7e213a6ea4b",
+      "actual": "53a682ea9594680e766faf54bc4a416e98faf8bf1652b7923b3cf7e213a6ea4b",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/edge_client/mobile_processing_unit/MobileVM.java",
+      "expected": "9af17fff50365a8a9a669cf885909b590cac7fc91ec8db853383967377db4d2d",
+      "actual": "9af17fff50365a8a9a669cf885909b590cac7fc91ec8db853383967377db4d2d",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/task_generator/LoadGeneratorModel.java",
+      "expected": "2ff1f08fe3426fac21394eacdadaba56c67b658813e28e44e453ab0a46cfe6e5",
+      "actual": "2ff1f08fe3426fac21394eacdadaba56c67b658813e28e44e453ab0a46cfe6e5",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/task_generator/IdleActiveLoadGenerator.java",
+      "expected": "334063c34b5e303c56b3de018a5f7db100a914ffac3a30ffbf35556309236236",
+      "actual": "334063c34b5e303c56b3de018a5f7db100a914ffac3a30ffbf35556309236236",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/src/edu/boun/edgecloudsim/task_generator/RushHourLoadGenerator.java",
+      "expected": "a4a82b5b70c33996b7ca01500ad9de3cbb6d607c400d9115226e65afa617ae14",
+      "actual": "a4a82b5b70c33996b7ca01500ad9de3cbb6d607c400d9115226e65afa617ae14",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/jackson-annotations-2.18.2.jar",
+      "expected": "581bd61000ef7648943f781ca05689e56d03f6052748365a8e2b3a9b5d3fa32f",
+      "actual": "581bd61000ef7648943f781ca05689e56d03f6052748365a8e2b3a9b5d3fa32f",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/jackson-databind-2.18.2.jar",
+      "expected": "4b364e6850dc89172fcf1d4dd26b8ff5488eda44ff4657e22dd265203dd5ab3c",
+      "actual": "4b364e6850dc89172fcf1d4dd26b8ff5488eda44ff4657e22dd265203dd5ab3c",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/weka.jar",
+      "expected": "efeb28272412da21568148d13b3571fb35b12125bd7447bd401ab0cc4efa3d70",
+      "actual": "efeb28272412da21568148d13b3571fb35b12125bd7447bd401ab0cc4efa3d70",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/jFuzzyLogic_v3.0.jar",
+      "expected": "11aca43c89fdc7ece772629e27b86a76b237de2c65c7e520035e8efae2a2f836",
+      "actual": "11aca43c89fdc7ece772629e27b86a76b237de2c65c7e520035e8efae2a2f836",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/mtj-1.0.4.jar",
+      "expected": "27a53db335bc6af524b30f97ec3fb4b6df65e7648d70e752447c7dd9bc4697c8",
+      "actual": "27a53db335bc6af524b30f97ec3fb4b6df65e7648d70e752447c7dd9bc4697c8",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/cloudsim-7.0.0-alpha.jar",
+      "expected": "9c103f308e5611b99f64fbfc1ff7a7aca2806a1e601d8a1321c21fa4e3cd31bd",
+      "actual": "9c103f308e5611b99f64fbfc1ff7a7aca2806a1e601d8a1321c21fa4e3cd31bd",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/commons-math3-3.6.1.jar",
+      "expected": "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308",
+      "actual": "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/colt.jar",
+      "expected": "e1fcbfbdd0d0caedadfb59febace5a62812db3b9425f3a03ef4c4cbba3ed0ee3",
+      "actual": "e1fcbfbdd0d0caedadfb59febace5a62812db3b9425f3a03ef4c4cbba3ed0ee3",
+      "matches": true
+    },
+    {
+      "path": "ThreeBrains/lib/jackson-core-2.18.2.jar",
+      "expected": "d8054ae7c0d1c2d2f55d28e46026ebe5892881f3fab5f439233184381c3b4a1f",
+      "actual": "d8054ae7c0d1c2d2f55d28e46026ebe5892881f3fab5f439233184381c3b4a1f",
+      "matches": true
+    }
+  ]
+}

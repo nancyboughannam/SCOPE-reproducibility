@@ -1,0 +1,13 @@
+# Frozen artifact hashes cover exact bytes, including CSV line endings.
+* -text
+*.jar binary
+*.model binary
+*.pdf binary
+*.png binary
+*.fig binary
+# Preserve archived and upstream formatting without whitespace-only rewrites.
+FLaskAPIs/** -whitespace
+ThreeBrains/** -whitespace
+results/** -whitespace
+experiments/** -whitespace
+licenses/** -whitespace

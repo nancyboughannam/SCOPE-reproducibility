@@ -1,0 +1,19 @@
+SCOPE planning-interval experiment
+
+Use the repository root entry points described in README.md.
+
+Terminal, from the repository root:
+  bash SETUP.sh
+  bash RUN_SIMULATION.sh --study delta --output reruns/delta_only
+
+MATLAB, after the full study finishes:
+  addpath(fullfile(pwd,'matlab'))
+  plot_delta_t_results(fullfile(pwd,'reruns','delta_only','delta_t'))
+
+Terminal:
+  bash ZIP_RESULTS.sh rerun --output reruns/delta_only
+
+The frozen original models and audited runtime inputs are supplied with this
+repository. The public driver prepares an isolated source snapshot; no old
+Mac installation paths or manual Flask/Java launch are required.
+See docs/EXPERIMENTS.md for the coupled planning/telemetry-window limitation.

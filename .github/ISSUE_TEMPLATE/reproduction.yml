@@ -1,0 +1,30 @@
+name: Reproduction problem
+description: Report a setup, simulation, statistics or figure-export failure.
+title: "[Reproduction] "
+body:
+  - type: input
+    id: commit
+    attributes:
+      label: Commit or release
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS/CPU, Python version, Java version, and MATLAB version if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command and output folder
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: Error and relevant log excerpt
+      description: Remove credentials and unrelated personal information.
+    validations:
+      required: true

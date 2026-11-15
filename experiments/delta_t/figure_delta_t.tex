@@ -1,0 +1,43 @@
+% Use only after the full run and the results review. Upload both PNG files.
+% This replaces the old DeltaT figure, not the main vehicle-count figures.
+% Retain the deleted old discussion with your existing strikethrough markup.
+% Requires subcaption and xcolor (already used in the manuscript).
+\begin{figure}[!htbp]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{DeltaT_FailedTasks.png}
+        \caption{Failed tasks.}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{DeltaT_ServiceTime.png}
+        \caption{Service time for completed tasks.}
+    \end{subfigure}
+    \caption{\textcolor{red}{Sensitivity of the final SCOPE controller to
+    $\Delta T\in\{15,30,60,90\}$~s, with the predictors and candidate catalogue
+    held fixed. Curves show steady workloads at 900 and 1800 vehicles and
+    the workload-shift scenario at 1200 vehicles. Points are means across
+    ten paired simulation iterations; error bars are pointwise 95\%
+    Student $t$ confidence intervals.}}
+    \label{fig:deltat}
+\end{figure}
+
+% Methods paragraph only. Add the result interpretation AFTER reviewing data.
+\textcolor{red}{
+We evaluate the sensitivity of the final controller to planning intervals
+of 15, 30, 60, and 90~s, using ten additional paired iterations
+(3601--3610). The predictors trained using 60-second windows, the candidate
+catalogue, $\lambda=0.01$, and $R_{\max}=0.15$ are held fixed. The
+steady-workload cases use 900 and 1800 vehicles. In the 1200-vehicle
+workload-shift case, the task-arrival rate is multiplied by 1.5 from
+1200 to 2400~s and then returns to its initial level. Each simulation
+lasts 60~min, including a 3-minute warm-up.
+The implementation resets its telemetry counters at each planning epoch;
+changing $\Delta T$ therefore changes both decision frequency and the
+measurement window supplied to the fixed predictors. The reconfiguration
+bound and penalty remain defined per update. This experiment assesses
+sensitivity of the deployed controller, rather than comparing separately
+retrained models or establishing a universally optimal planning interval.
+The main comparative study retains its preselected interval of 60~s.
+}

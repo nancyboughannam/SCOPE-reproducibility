@@ -1,0 +1,52 @@
+{
+  "raw_rows": 8850,
+  "clean_rows": 8250,
+  "distinct_runs": 10,
+  "split_rows": {
+    "train": 4950,
+    "validation": 1650,
+    "test": 1650
+  },
+  "split_run_ids": {
+    "test": [
+      "iteration_3006",
+      "iteration_3007"
+    ],
+    "validation": [
+      "iteration_3001",
+      "iteration_3008"
+    ],
+    "train": [
+      "iteration_3004",
+      "iteration_3003",
+      "iteration_3005",
+      "iteration_3010",
+      "iteration_3002",
+      "iteration_3009"
+    ]
+  },
+  "action_unique_values": {
+    "candidate_alpha": 19,
+    "candidate_w_load_0": 9,
+    "candidate_w_load_1": 9,
+    "candidate_w_load_2": 9,
+    "candidate_threshold_0": 16,
+    "candidate_threshold_1": 16,
+    "candidate_threshold_2": 16
+  },
+  "low_variation_action_warning": [],
+  "targets": {
+    "target_failure_rate": {
+      "mean": 0.005405763215934288,
+      "std": 0.012630177220298673,
+      "min": 0.0,
+      "max": 0.1616233535065859
+    },
+    "target_deadline_norm_service_time": {
+      "mean": 0.6275361068676618,
+      "std": 0.3241077201738261,
+      "min": 0.2142274230270421,
+      "max": 2.247492871460467
+    }
+  }
+}

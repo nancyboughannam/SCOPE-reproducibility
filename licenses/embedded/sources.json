@@ -1,0 +1,57 @@
+[
+  {
+    "jar": "commons-math3-3.6.1.jar",
+    "member": "META-INF/LICENSE.txt",
+    "file": "licenses/embedded/commons-math3-3.6.1/LICENSE.txt"
+  },
+  {
+    "jar": "commons-math3-3.6.1.jar",
+    "member": "META-INF/NOTICE.txt",
+    "file": "licenses/embedded/commons-math3-3.6.1/NOTICE.txt"
+  },
+  {
+    "jar": "jackson-annotations-2.18.2.jar",
+    "member": "META-INF/LICENSE",
+    "file": "licenses/embedded/jackson-annotations-2.18.2/LICENSE"
+  },
+  {
+    "jar": "jackson-annotations-2.18.2.jar",
+    "member": "META-INF/NOTICE",
+    "file": "licenses/embedded/jackson-annotations-2.18.2/NOTICE"
+  },
+  {
+    "jar": "jackson-core-2.18.2.jar",
+    "member": "META-INF/FastDoubleParser-LICENSE",
+    "file": "licenses/embedded/jackson-core-2.18.2/FastDoubleParser-LICENSE"
+  },
+  {
+    "jar": "jackson-core-2.18.2.jar",
+    "member": "META-INF/LICENSE",
+    "file": "licenses/embedded/jackson-core-2.18.2/LICENSE"
+  },
+  {
+    "jar": "jackson-core-2.18.2.jar",
+    "member": "META-INF/NOTICE",
+    "file": "licenses/embedded/jackson-core-2.18.2/NOTICE"
+  },
+  {
+    "jar": "jackson-core-2.18.2.jar",
+    "member": "META-INF/FastDoubleParser-NOTICE",
+    "file": "licenses/embedded/jackson-core-2.18.2/FastDoubleParser-NOTICE"
+  },
+  {
+    "jar": "jackson-core-2.18.2.jar",
+    "member": "META-INF/thirdparty-LICENSE",
+    "file": "licenses/embedded/jackson-core-2.18.2/thirdparty-LICENSE"
+  },
+  {
+    "jar": "jackson-databind-2.18.2.jar",
+    "member": "META-INF/LICENSE",
+    "file": "licenses/embedded/jackson-databind-2.18.2/LICENSE"
+  },
+  {
+    "jar": "jackson-databind-2.18.2.jar",
+    "member": "META-INF/NOTICE",
+    "file": "licenses/embedded/jackson-databind-2.18.2/NOTICE"
+  }
+]

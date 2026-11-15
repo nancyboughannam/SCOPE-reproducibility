@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the SCOPE manuscript and the exact code commit used."
+title: "SCOPE research code and reproducibility data"
+type: software
+version: "2026.11-publication"
+authors:
+  - family-names: "Bou Ghannam"
+    given-names: "Nancy"
+  - family-names: "Nasser"
+    given-names: "Abbass"
+  - family-names: "Zaki"
+    given-names: "Chamseddine"
+  - family-names: "Ramadan"
+    given-names: "Alaaeddine"
+  - family-names: "Hamrioui"
+    given-names: "Sofiane"
+  - family-names: "Lorenz"
+    given-names: "Pascal"
+repository-code: "https://github.com/nancyboughannam/SCOPE-reproducibility"
+keywords:
+  - edge computing
+  - reproducibility
+  - orchestration

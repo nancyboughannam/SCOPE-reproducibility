@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "completed": 400,
+  "expected": 400,
+  "matched_pairs": 10,
+  "profile": "full",
+  "iterations": [
+    3401,
+    3402,
+    3403,
+    3404,
+    3405,
+    3406,
+    3407,
+    3408,
+    3409,
+    3410
+  ],
+  "model_retraining": false,
+  "note": "Post-confirmation EXP3 routing ablation, not a new independent confirmation. Keep the guard-on comparison. Main Holm family recomputed, retaining all comparators.",
+  "new_exp3_completed": 50,
+  "new_exp3_expected": 50,
+  "reused_unchanged": 350,
+  "exp3_routing_schema": "edge_first_v1"
+}

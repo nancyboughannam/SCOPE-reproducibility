@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-15",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "java": "OpenJDK 21.0.13",
+  "unit_tests_passed": 42,
+  "smoke": {
+    "lambda_calibration": 9,
+    "static_calibration": 8,
+    "main_ablation_adaptation": 22,
+    "additional_exp3": 2,
+    "delta_t": 12,
+    "total": 53
+  },
+  "full_duration_reference": {
+    "policies": [
+      "SCOPE",
+      "RANDOM"
+    ],
+    "iteration": 3401,
+    "vehicles": 1800,
+    "metrics_checked": 112,
+    "maximum_absolute_difference": 7.105427357601002e-15
+  },
+  "interruption_and_resume": {
+    "exit_code": 130,
+    "service_port_freed": true,
+    "retained_partial_attempt": true,
+    "resumed_scenarios": 12
+  },
+  "original_frozen_predictors_checked": 6,
+  "refit_completed": true,
+  "refit_byte_identical": false,
+  "matlab_executed": false,
+  "macos_executed": false,
+  "full_637_suite_rerun": false
+}

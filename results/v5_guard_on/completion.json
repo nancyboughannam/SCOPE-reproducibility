@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "completed": 400,
+  "expected": 400,
+  "matched_pairs": 10,
+  "profile": "full",
+  "iterations": [
+    3401,
+    3402,
+    3403,
+    3404,
+    3405,
+    3406,
+    3407,
+    3408,
+    3409,
+    3410
+  ],
+  "model_retraining": false,
+  "note": "Finish the entire registered set before final figures. No automatic winner, parameter adjustment, or selective stopping."
+}
