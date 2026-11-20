@@ -257,7 +257,7 @@ def package(args, out):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('stage', choices=['verify','prepare','run','status','package','table4','calibration-table','train'])
+    p.add_argument('stage', choices=['verify','prepare','run','status','package','table4','table5','revision-results','calibration-table','train'])
     p.add_argument('--study', choices=['all','main','delta','lambda'], default='all')
     p.add_argument('--profile', choices=['full','smoke'], default='full')
     p.add_argument('--output', type=Path)
@@ -266,9 +266,18 @@ def main():
     args = p.parse_args()
     out = safe_output(args.output or ROOT / 'reruns' / ('paper' if args.profile == 'full' else 'smoke'))
     if args.stage == 'verify':
-        verify_bytes(); command('scripts/verify_results.py'); return
-    if args.stage == 'table4':
-        verify_bytes(); command('scripts/table4.py'); return
+        verify_bytes()
+        command('scripts/verify_results.py')
+        command('scripts/revision_results.py')
+        return
+    if args.stage in ('table4', 'table5'):
+        verify_bytes()
+        command('scripts/table4.py', args.stage)
+        return
+    if args.stage == 'revision-results':
+        verify_bytes()
+        command('scripts/revision_results.py')
+        return
     if args.stage == 'calibration-table':
         if args.source == 'archived': verify_bytes()
         source = ROOT / 'results/lambda_calibration' if args.source == 'archived' else out / 'lambda_calibration'

@@ -1,0 +1,68 @@
+[
+  {
+    "iteration": 3401,
+    "decisions": 59,
+    "outcome_reference_matches": true,
+    "all_action_reference_matches": true,
+    "workload_sha256": "13aef898f8aed9f73ec7f0fae19e50f4189282ef45bb17f7f70fc2d8857ffedf",
+    "metrics": {
+      "completed": 1176532,
+      "failed": 3639,
+      "pending": 219,
+      "failure_pct": 0.3083451465931632,
+      "service_seconds": 0.5932262505068627,
+      "processing_seconds": 0.5125912520354019,
+      "network_seconds": 0.08063499847146607,
+      "qoe_completed_pct": 69.15147083890848,
+      "qoe_all_pct": 68.93824563477891,
+      "vm_capacity_failures": 53,
+      "mobility_failures": 993,
+      "network_failures": 2593
+    },
+    "run_elapsed_seconds": 21.98305025001173
+  },
+  {
+    "iteration": 3402,
+    "decisions": 59,
+    "outcome_reference_matches": true,
+    "all_action_reference_matches": true,
+    "workload_sha256": "b267cc131c044d4bd262a8e52a225a64e79b27d47b131ab6bd9a4bc0f2acf4fd",
+    "metrics": {
+      "completed": 1180731,
+      "failed": 3085,
+      "pending": 224,
+      "failure_pct": 0.26059793075950993,
+      "service_seconds": 0.5898821828158367,
+      "processing_seconds": 0.5108676003146463,
+      "network_seconds": 0.07901458250120054,
+      "qoe_completed_pct": 69.74629662865092,
+      "qoe_all_pct": 69.56453922285527,
+      "vm_capacity_failures": 80,
+      "mobility_failures": 996,
+      "network_failures": 2009
+    },
+    "run_elapsed_seconds": 21.587028499983717
+  },
+  {
+    "iteration": 3403,
+    "decisions": 59,
+    "outcome_reference_matches": true,
+    "all_action_reference_matches": true,
+    "workload_sha256": "0d729d2bf22f6888f3a1fc77ff7b07c0ed94731b9d8e33c6d8f23b68b461c7ba",
+    "metrics": {
+      "completed": 1180518,
+      "failed": 3638,
+      "pending": 226,
+      "failure_pct": 0.3072230348028469,
+      "service_seconds": 0.5852413117806088,
+      "processing_seconds": 0.505797789520004,
+      "network_seconds": 0.07944352226060755,
+      "qoe_completed_pct": 70.11875152089705,
+      "qoe_all_pct": 69.90333056450868,
+      "vm_capacity_failures": 60,
+      "mobility_failures": 994,
+      "network_failures": 2584
+    },
+    "run_elapsed_seconds": 21.154465250001522
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "profile": "full",
+  "complete_runs": 30,
+  "bound_verified": true,
+  "six_models_every_decision": true,
+  "workload_pairing_verified": true,
+  "common_noise_verified": true,
+  "all_published_baselines_match": true
+}

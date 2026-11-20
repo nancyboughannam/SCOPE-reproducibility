@@ -1,0 +1,19 @@
+--- original/runtime/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularEdgeOrchestrator.java
++++ timed/runtime/src/edu/boun/edgecloudsim/applications/sample_app5/VehicularEdgeOrchestrator.java
+@@ -1455,6 +1455,7 @@
+         closeActiveTrainingWindow(timestamp);
+         flushTrainingWindows(false);
+ 
++        final long scopeStartNanos = System.nanoTime();
+         final OptimizerStateSnapshot inputState = captureOptimizerState(timestamp);
+         if (Boolean.getBoolean("scope.logPerformanceWindows")) logPerformanceWindow(inputState);
+         if (policy.equals(STATIC_POLICY) || !usesRtOptLogic()) {
+@@ -1590,6 +1591,8 @@
+                 System.arraycopy(reply.weights, 0, validated.wLoad, 0, NUM_APP_TYPES);
+                 System.arraycopy(reply.thresholds, 0, validated.threshold, 0, NUM_APP_TYPES);
+                 applyCandidateConfiguration(validated);
++                final long scopeUpdateNanos = System.nanoTime() - scopeStartNanos;
++                System.out.println("R115_TIMING " + (long) timestamp + " " + scopeUpdateNanos);
+ 
+                 if (policy.equals(EXP3_MC_POLICY)) exp3Feedback.acknowledge(exp3Ready);
+                 CandidateConfiguration afterUpdate = captureCurrentConfiguration();

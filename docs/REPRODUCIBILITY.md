@@ -40,7 +40,8 @@ Always run commands from the repository root. The default workflow uses original
 | Goal | Terminal command |
 |---|---|
 | Integrity and numerical checks | `.venv/bin/python reproduce.py verify` |
-| Original corrected Table 4 | `.venv/bin/python reproduce.py table4` |
+| Prediction noise, local timing and budget sensitivity | `.venv/bin/python reproduce.py revision-results` ([fresh-run protocols](../experiments/revision_studies/README.md)) |
+| Held-out predictor performance (Table 5) | `.venv/bin/python reproduce.py table5` |
 | λ table, mean ± sample SD | `.venv/bin/python reproduce.py calibration-table` |
 | Smoke execution of every component | `bash RUN_SIMULATION.sh --profile smoke` |
 | Full main and ΔT studies | `bash RUN_SIMULATION.sh` |
@@ -114,7 +115,7 @@ Inspect cleaning options before rebuilding a separate dataset:
 
 `train` fits the original procedure from the supplied train/validation/test partition and writes to a new `reruns/predictor_training_...` folder. It does not promote a new model into the main simulation. The shared `run_deadline_pilot.py` also retains the historical collection/training utilities needed to explain the original pipeline; its development `all` command is not the publication launcher.
 
-The validation refit on Linux completed successfully but did **not** reproduce identical fitted models or validation-selected stopping rounds. The cause has not been isolated. The saved six candidate models reproduce the original Table 4 values, and those frozen models are therefore the default for paper-result reproduction. Do not substitute a fresh refit while claiming it is the original published model. Stored state-only predictions support the original control column; the state-only fitted models were not saved by the historical trainer.
+The validation refit on Linux completed successfully but did **not** reproduce identical fitted models or validation-selected stopping rounds. The cause has not been isolated. The saved six candidate models reproduce the original Table 5 values, and those frozen models are therefore the default for paper-result reproduction. Do not substitute a fresh refit while claiming it is the original published model. Stored state-only predictions support the original control column; the state-only fitted models were not saved by the historical trainer.
 
 ## Common failures
 

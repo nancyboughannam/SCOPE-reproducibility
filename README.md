@@ -2,7 +2,7 @@
 
 Research code and archived results for **Stability-Aware Multi-Timescale Orchestration for IoE Edge–Cloud Systems**.
 
-This publication snapshot contains the original corrected predictors, the λ-calibration evidence, the completed main study, RANDOM as a main baseline, the separate EXP3 routing comparison, and the completed planning-interval (ΔT) study. It provides both **figure regeneration from archived data** and **fresh simulation runs**. Experimental retrained predictors are not substituted for the models behind these results.
+This publication snapshot contains the original corrected predictors, the λ-calibration evidence, the completed main study, RANDOM as a main baseline, the separate EXP3 routing comparison, the completed planning-interval (ΔT) study, and the prediction-noise, local control-loop timing, and hard-budget sensitivity studies. It provides both **figure regeneration from archived data** and **fresh simulation runs**. Experimental retrained predictors are not substituted for the models behind these results.
 
 ## Quick start
 
@@ -53,7 +53,7 @@ bash RUN_SIMULATION.sh
 
 The script compiles isolated Java classes, starts and stops the required local Python services, performs static calibration, runs all policies including RANDOM, checks paired workloads, and exports CSV summaries. **Do not launch Flask or Java manually.** On macOS it uses `caffeinate`; keep the laptop plugged in with the lid open.
 
-Full reproduction performs **637 simulations**: 27 λ-calibration runs, 40 static-calibration runs, 400 guard-on study runs, 50 additional edge-first EXP3 runs, and 120 ΔT runs. The final main table contains 400 scenarios: the 350 unaffected results plus the 50 edge-first EXP3 results. Each full simulation represents 60 minutes, with a 3-minute warm-up. Wall-clock time depends on hardware; no unmeasured completion-time estimate is promised.
+The original simulation suite performs **637 simulations**: 27 λ-calibration runs, 40 static-calibration runs, 400 guard-on study runs, 50 additional edge-first EXP3 runs, and 120 ΔT runs. The final main table contains 400 scenarios: the 350 unaffected results plus the 50 edge-first EXP3 results. Each full simulation represents 60 minutes, with a 3-minute warm-up. Wall-clock time depends on hardware; no unmeasured completion-time estimate is promised.
 
 Results are saved under `reruns/paper/`; smoke results use `reruns/smoke/`. Press **Ctrl+C once**, wait for `STOPPED`, and repeat the same command to resume. Completed jobs are verified and skipped. Interrupted attempts are retained in separate folders. Ports 5002 and 5003 must be free; unrelated services are never killed.
 
@@ -76,7 +76,10 @@ Smoke results are execution checks, not paper results; the publication exporter 
 
 | Paper component | Archived data | Reproduction/export |
 |---|---|---|
-| Corrected original predictor table (Table 4) | `FLaskAPIs/scope_candidate_xgboost_results/` | `.venv/bin/python reproduce.py table4` |
+| Held-out predictor performance (Table 5) | `FLaskAPIs/scope_candidate_xgboost_results/` | `.venv/bin/python reproduce.py table5` |
+| Prediction noise (Table 9) | `results/prediction_noise/` | `.venv/bin/python reproduce.py revision-results` |
+| Local control-loop latency (Section 5.1.3) | `results/control_loop_latency/` | Same command |
+| Hard-budget sensitivity (Appendix Table A.9) | `results/reconfiguration_budget/` | Same command |
 | λ-calibration table (Table 6) | `results/lambda_calibration/` | `.venv/bin/python reproduce.py calibration-table` |
 | Main failures and service-time figures, including RANDOM | `results/v5_guard_off/` | `RUN_MATLAB`; `scope/main/` |
 | ΔT figure: failures and service time | `results/delta_t/` | `RUN_MATLAB`; `delta_t/` |
@@ -85,6 +88,8 @@ Smoke results are execution checks, not paper results; the publication exporter 
 | Workload shift and matched frozen control | `results/v5_guard_off/` | `scope/adaptation/` |
 | QoE, utilization, delay decomposition and all controls | `results/v5_guard_off/` | `scope/supplementary/` |
 | EXP3 guard-on versus edge-first comparison | Both `v5_guard_*` folders | `scope/exp3_routing_ablation/` |
+
+The revision-results command recomputes the three summaries from the archived runs and measured updates, including the paired prediction-noise tests. For fresh runs using the frozen simulator inputs, see [study protocols and commands](experiments/revision_studies/README.md). The previous `table4` command remains available for scripts that use its original output filenames.
 
 See [experiment definitions and metric interpretation](docs/EXPERIMENTS.md), [data dictionary and figure map](docs/DATA_AND_FIGURES.md), and [provenance](docs/PROVENANCE.md). Figure/table numbering can change during manuscript revision; the mapping above identifies the experiments and output filenames.
 
@@ -113,7 +118,7 @@ Means and two-sided 95% Student-t intervals use ten simulation iterations as rep
 | `matlab/` | Publication exporters |
 | `results/` | Read-only archived per-run tables, summaries and PDF figures |
 | `provenance/` | Input mapping, source audit and SHA-256 manifest |
-| `scripts/` | Independent numerical verification and Table 4 export |
+| `scripts/` | Independent numerical verification and Table 5 export |
 | `docs/` | Protocol, data, installation, provenance and validation details |
 
 Generated environments, raw reruns, caches, IDE files and review ZIPs are ignored by Git. This is a separate publication repository. The original [SCOPE repository](https://github.com/nancyboughannam/SCOPE) retains its development history; that history is not imported here. Focused regression tests are retained because they check the reproduction workflow and policy behavior.
@@ -122,12 +127,12 @@ Generated environments, raw reruns, caches, IDE files and review ZIPs are ignore
 
 ```bash
 .venv/bin/python reproduce.py verify
-.venv/bin/python reproduce.py table4
+.venv/bin/python reproduce.py table5
 .venv/bin/python reproduce.py calibration-table
 .venv/bin/python -m pytest
 ```
 
-The Table 4 command evaluates all six saved candidate-aware models on the held-out rows and checks the stored state-only predictions. To refit the original training procedure into a separate timestamped folder:
+The Table 5 command evaluates all six saved candidate-aware models on the held-out rows and checks the stored state-only predictions. To refit the original training procedure into a separate timestamped folder:
 
 ```bash
 .venv/bin/python reproduce.py train
